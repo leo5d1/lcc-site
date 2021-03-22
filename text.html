@@ -8,24 +8,27 @@
 
     <style>
         html {
-            background: #157F1F;
+            background-image: radial-gradient(circle at 2.02% 80.05%, #ee9ca7, transparent 100%), radial-gradient(circle at 97.98% 89.96%, #ffdde1, transparent 100%), radial-gradient(circle at 50% 50%, #ee9ca7, #ffdde1 100%);
+            background-attachment: fixed;
+            background-size: cover;
+            color: #eee;
+            line-height: 1.4rem;
+            font-size: 16px;
+            font-family: montserrat, sans-serif;
         }
 
         body {
-            background: #4CB963;
-            color: #5C6784;
-        }
-
-        h2 {
-            color: #1D263B;
+            width: 60vw;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 2rem;
+            padding: 3rem;
+            border-radius: 2rem;
+            background-color: #ffffff11;
         }
 
         .fred {
-            color: #ff0000;
-        }
-
-        #bob {
-            color: #ffff00;
+            color: #000000;
         }
 
         p {
@@ -33,8 +36,7 @@
         }
 
         li {
-            background: #dda0dd;
-            color:#000000;
+            color: #000000;
         }
     </style>
 
@@ -47,21 +49,21 @@
         Id affects one and is a number sign (#)
     -->
 
-    <h1 class="fred"> big ol' headline </h1>
+    <h1 class="fred"> Big ol' Headline </h1>
 
-    <h2 class="fred"> smaller headline </h2>
+    <h2 class="fred"> Smaller Headline </h2>
 
-    <h3 class="fred"> even smaller headline </h3>
+    <h3 class="fred"> Even Smaller Headline </h3>
 
-    <h2 class="fred" id="bob"> another headline </h2>
+    <h2 class="fred" id="bob"> Another Headline </h2>
 
     <p> This is <b>paragraph</b> text. <i>Lotsa</i> <em>stuff</em> here. </p>
 
-    <blockquote> Eh, this is a <strong>blockquote</strong> right here, man. </blockquote>
+    <blockquote class="fred"> Eh, this is a <strong>blockquote</strong> right here, man. </blockquote>
 
     <p> This is paragraph text. </p>
 
-    <code> Yeet! </code>
+    <code class="fred"> Yeet! <small>(This is code text)</small> </code>
 
     <ul>
         <li> list item </li>
@@ -71,9 +73,9 @@
 
 
     <ol>
-        <li> <small>small list item</small> </li>
-        <li> <del>deleted list item</del> </li>
-        <li> <sub>weird</sub> <ins>rising</ins> <sup>text</sup> </li>
+        <li> <ins> list item </ins> </li>
+        <li> <del> deleted list item </del> </li>
+        <li> <sub> weird </sub> <small> rising </small> <sup> text </sup> </li>
     </ol>
 
 
